@@ -6,6 +6,7 @@ ruby '3.1.2'
 gem 'bootsnap', require: false
 gem 'pg', '~> 1.1'
 gem 'puma', '~> 5.0'
+gem 'rack-cors', require: 'rack/cors'
 gem 'rails', '~> 7.0.3', '>= 7.0.3.1'
 gem 'rubocop', '>= 1.0', '< 2.0'
 gem 'tzinfo-data'
